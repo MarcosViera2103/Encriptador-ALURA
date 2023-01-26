@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    background: #f3f5fc;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 600px;
+    padding: 5px;
+    background: #a8b4df;
+    border-radius: 24px;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logoimg{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+}
+
+.titlelogo{
+    float: inherit;
+    margin-left: 20%;
+    color: #0A3871;
+    
+}
+
+.left{
+    width: 70%;
+    height: 62%;
+    float: left;
+    border-radius: 24px;    
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    margin-left: 7%;
+}
+
+.text-input{
+    float: left;
+    margin-left: 20%;
+    margin-top: 7%;
+    width: 50%;
+    height: 77%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+    background: #F3F5FC;
+}
+
+.right{
+    width: 30%;
+    height: 85%;
+    float:right;
+    border-radius: 24px;      
+}
+
+#textoencontrado-2{    
+        background: white;
+        background-image: url("\munheco.png");
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 24PX;
+        color: #0A3871;
+        margin-left: 16px;
+        margin-top: 35px;
+        padding: 7px;
+        width: 80%;
+        height: 67%;
+        outline: none;
+        font-size: 20px;                 
+}
+
+#imagenmunheco{
+    margin-left: 2%;
+    margin-top: 27px;
+    width: 10%;
+    height: auto;
+}
+
+.textoencontrado{       
+    margin-left: 12%;
+    margin-right: 2%;       
+}
+
+#copiar{
+    margin-left: 26%;
+    margin-top: 8%;
+    padding: 12px;
+    width: 50%;
+    height: 9%;
+    border-radius: 20px;
+    background: #D8DFE8;
+    transition: 1s all;
+    cursor: pointer;
+    font-size: 16px; 
+    
+}    
+
+
+
+
+.botones{
+    width: 70%;
+    float: left;
+    border-radius: 24px;
+      
+}
+
+#boton-encriptar{    
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    margin-left: 15%;
+    border-radius: 24px;  
+    background:#0A3871;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+#boton-desencriptar{
+    font-size: 18px;
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    margin-left: 15%;
+    border-radius: 24px;    
+    background: #F3F5FC;
+    cursor: pointer;               
+}
+
+

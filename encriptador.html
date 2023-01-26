@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Encriptador Alura</title>
+        
+        <link rel = "stylesheet" href="encriptador.css">
+        
+    </head>
+    
+    <body>
+        <main class = "container">
+            <header class = "logo">
+                <img class = "logoimg" src="C:\Users\marco\OneDrive\Escritorio\.JS nueva\html5\encriptador\vector.png">
+                <h1 class = "titlelogo">Encriptador de mensajes</h1>
+            </header>
+            <section class = "left">
+                <input class = "text-input" id = "inputTexto" tipe = "text" placeholder="Ingrese el texto aqui">
+            </section>
+            <section class = "right">            
+                <textarea id = "textoencontrado-2"  name = "name" rows = "8" cols="80" >Ningun texto fue encontrado</textarea>
+                
+                <button id = "copiar" type = "button" name = "buttom" onclick="copiar()">!Copiar¡</button>
+            </section>
+            <section class = "botones">
+                <p>* Ingrasar solo minusculas y sin acentos</p>
+                <button tipe = "button" id = "boton-encriptar" onclick = "btnEncriptar()">Encriptar</button>
+                <button tipe = "button" id = "boton-desencriptar" onclick = "btnDesencriptar()">Desencriptar</button>
+
+            </section>
+
+        </main>  
+        <script tipe = "text/javascript" src = "encriptador.js"></script>
+    </body>    
+        
+</html>
