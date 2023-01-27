@@ -3,12 +3,12 @@
     <head lang="en">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Encriptador Alura</title>
-        
-        <link rel = "stylesheet" href="encriptador.css">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">    
+        <title>Encriptador Alura</title>        
+        <link rel = "stylesheet" href="style.css">        
     </head>
     
     <body>
@@ -18,11 +18,10 @@
                 <h1 class = "titlelogo">Encriptador de mensajes</h1>
             </header>
             <section class = "left">
-                <input class = "text-input" id = "inputTexto" tipe = "text" placeholder="Ingrese el texto aqui">
+                <input class = "text-input" tipe = "text" placeholder="Ingrese el texto aqui">
             </section>
             <section class = "right">            
-                <textarea id = "textoencontrado-2"  name = "name" rows = "8" cols="80" >Ningun texto fue encontrado</textarea>
-                
+                <textarea id = "textoencontrado-2"   name = "name" rows = "8" cols="80" >Ningun mensaje fue encontrado</textarea>                
                 <button id = "copiar" type = "button" name = "buttom" onclick="copiar()">!Copiar¡</button>
             </section>
             <section class = "botones">
@@ -32,8 +31,13 @@
 
             </section>
 
+            <footer>
+                <p class = "footer">&copy Copyright. Creado por Marcos Viera</p>
+            </footer>
+
         </main>  
-        <script tipe = "text/javascript" src = "encriptador.js"></script>
+        <script tipe = "text/javascript" src = "script.js"></script>
+        
     </body>    
         
 </html>
